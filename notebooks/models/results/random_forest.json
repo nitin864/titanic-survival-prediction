@@ -1,0 +1,1 @@
+{"random_forest": {"accuracy": 0.7933, "roc_auc": 0.8466, "cv_score": 0.8189}}
