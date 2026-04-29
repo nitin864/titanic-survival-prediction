@@ -1,6 +1,6 @@
 # Titanic Survival Prediction |  Machine Learning Project
 
-![Dashboard](waketime_sc/project_sc/1.png)
+![Dashboard](wakatime_sc/project_sc/1.png)
 A complete end-to-end machine learning project built on the Titanic dataset.
 The project covers data preprocessing, exploratory data analysis, feature engineering,
 model training, model comparison, and an interactive Streamlit dashboard.
@@ -320,4 +320,4 @@ pip install -r requirements.txt
 
  
 
-![WakaTime Dashboard](waketime_sc/1.png)
+![WakaTime Dashboard](wakatime_sc/1.png)
