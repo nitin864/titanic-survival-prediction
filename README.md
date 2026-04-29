@@ -64,7 +64,8 @@ Dropped columns: `PassengerId`, `Name`, `Ticket`, `Cabin`
 ## File Structure
 
 ```
-task2/
+
+titanic-survival-prediction/
 │
 ├── cleaned_data/
 │   ├── titanic_cleaned.csv         # Dataset after cleaning and encoding
@@ -242,21 +243,21 @@ across different data splits (0.8189), indicating it is not overfitting.
 
 ## Dashboard
 
-The interactive dashboard is built with Streamlit and loaded from `dashboard.py`.
+The interactive dashboard is built with Streamlit and loaded from `app.py`.
 
 Features of the dashboard:
 
-- Sidebar filters: Passenger Class, Gender, Age Range — all charts update live
-- KPI cards: Total passengers, Survived count, Survival rate, Average age
-- Survival by Gender — grouped bar chart
-- Survival by Passenger Class — grouped bar chart
-- Age Distribution by Survival — overlapping histogram
-- Fare vs Age scatter plot — color-coded by survival
-- Embarkation Port vs Survival — bar chart
-- Family Size vs Survival Rate — bar chart
-- Feature Correlation Heatmap — full seaborn heatmap
-- Model Comparison — accuracy and ROC-AUC bar charts with results table
-- Raw Data Table — expandable filtered data viewer
+- Survival by Gender — bar chart using `st.bar_chart`
+- Survival by Class — bar chart using `st.bar_chart`
+- Age Distribution — overlapping histogram (matplotlib) for Survived vs Not Survived
+- Fare vs Age — scatter plot color-coded green (survived) and red (not survived)
+- Correlation Heatmap — seaborn heatmap on columns: Pclass, Age, SibSp, Parch, Fare
+- Model Comparison Table — Logistic Regression vs Random Forest with Accuracy and ROC-AUC
+- Accuracy Comparison — bar chart
+- ROC-AUC Comparison — bar chart
+- Raw Data — expandable section showing the full filtered dataframe
+
+
 
 ---
 
