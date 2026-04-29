@@ -1,4 +1,4 @@
-# Titanic Survival Prediction — Machine Learning Project
+# Titanic Survival Prediction |  Machine Learning Project
 
 A complete end-to-end machine learning project built on the Titanic dataset.
 The project covers data preprocessing, exploratory data analysis, feature engineering,
