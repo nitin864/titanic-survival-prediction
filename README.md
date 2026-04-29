@@ -4,6 +4,8 @@ A complete end-to-end machine learning project built on the Titanic dataset.
 The project covers data preprocessing, exploratory data analysis, feature engineering,
 model training, model comparison, and an interactive Streamlit dashboard.
 
+dashboard link: https://titanicpre.streamlit.app/
+
 ---
 
 ## Table of Contents
