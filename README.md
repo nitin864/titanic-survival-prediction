@@ -293,10 +293,10 @@ Open notebooks in order using Google Colab or Jupyter:
 ### 4. Run the Streamlit dashboard
 
 ```bash
-streamlit run dashboard.py
+streamlit run app.py
 ```
 
-Make sure `dashboard.py` is in the same directory as the `cleaned_data/` folder.
+Make sure `app.py` is in the same directory as the `cleaned_data/` folder.
 
 ---
 
