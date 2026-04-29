@@ -7,6 +7,7 @@ The project covers data preprocessing, exploratory data analysis, feature engine
 model training, model comparison, and an interactive Streamlit dashboard.
 
 dashboard link: https://titanicpre.streamlit.app/
+workflow link: https://excalidraw.com/#json=dUfGlyR12FtibXC8pySqU,_pNaZKqlJ7E6QDZ1RK0zdQ
 
 ---
 
