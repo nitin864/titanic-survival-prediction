@@ -319,4 +319,4 @@ pip install -r requirements.txt
 
  
 
-![WakaTime Dashboard](wakatime_screenshot.png)
+![WakaTime Dashboard](waketime_sc/1.png)
