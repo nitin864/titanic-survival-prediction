@@ -268,7 +268,7 @@ Features of the dashboard:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/nitin864/titanic-survival-prediction
+git clone https://github.com/nitin864/titanic-survival-prediction.git
 cd titanic-survival-prediction
 ```
 
