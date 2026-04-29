@@ -1,5 +1,4 @@
-#Titanic_dashboard
-
+# Titanic_dashboard
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -7,7 +6,7 @@ import seaborn as sns
 
 st.set_page_config(page_title="Titanic Dashboard", layout="wide")
 
-# loading_data
+# load_data
 @st.cache_data
 def load_data():
     return pd.read_csv("cleaned_data/titanic_featured.csv")
@@ -80,6 +79,31 @@ corr = filtered[cols].corr()
 
 fig, ax = plt.subplots()
 sns.heatmap(corr, annot=True, ax=ax)
+st.pyplot(fig)
+
+#Model Comparison
+st.subheader("Model Comparison")
+
+model_data = pd.DataFrame({
+    "Model": ["Logistic Regression", "Random Forest"],
+    "Accuracy": [0.80, 0.79],
+    "ROC-AUC": [0.85, 0.84]
+})
+
+st.table(model_data.set_index("Model"))
+
+# Accuracy chart
+st.subheader("Accuracy Comparison")
+fig, ax = plt.subplots()
+ax.bar(model_data["Model"], model_data["Accuracy"])
+ax.set_ylabel("Accuracy")
+st.pyplot(fig)
+
+# ROC-AUC chart
+st.subheader("ROC-AUC Comparison")
+fig, ax = plt.subplots()
+ax.bar(model_data["Model"], model_data["ROC-AUC"])
+ax.set_ylabel("ROC-AUC")
 st.pyplot(fig)
 
 # Raw data
