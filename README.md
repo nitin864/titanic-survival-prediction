@@ -92,7 +92,7 @@ titanic-survival-prediction/
 │           ├── logistic_regression.json    # Saved metrics from LR model
 │           └── random_forest.json          # Saved metrics from RF model
 │── wakatime_sc/        # Screenshots of wakatime and project dashboard
-├── dashboard.py        # Streamlit interactive dashboard
+├── app.py        # Streamlit interactive dashboard
 ├── requirements.txt    # Python dependencies
 └── README.md
 ```
