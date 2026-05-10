@@ -1,5 +1,5 @@
 
-# Titanic Survival Prediction Project
+# Titanic Survival Prediction Project (Model Optimizaion)
 
 This project focuses on predicting passenger survival on the Titanic dataset using different machine learning models.
 
