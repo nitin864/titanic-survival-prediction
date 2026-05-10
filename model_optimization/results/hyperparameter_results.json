@@ -1,0 +1,7 @@
+{
+  "best_params": {
+    "C": 10,
+    "solver": "liblinear"
+  },
+  "best_score": 0.7963
+}
