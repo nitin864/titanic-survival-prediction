@@ -18,7 +18,8 @@ The project includes:
 
 ```
 
-project/
+├── cleaned_data/
+│   └── titanic_featured.csvmodel_optimization/
 │
 ├── notebooks/
 │   ├── cross_validation.ipynb
@@ -27,8 +28,6 @@ project/
 │   ├── hyperparameter_tuning.ipynb
 │   └── model_comparison_persistence.ipynb
 │
-├── cleaned_data/
-│   └── titanic_featured.csv
 │
 ├── results/
 │   ├── cross_validation_results.json
